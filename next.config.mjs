@@ -7,4 +7,4 @@ const nextConfig = {
     }
   }
   
-  module.exports = nextConfig
+  export default nextConfig;  // Changed from module.exports to export default
