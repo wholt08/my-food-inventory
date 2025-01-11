@@ -19,9 +19,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <head>
+        <link href="/my-food-inventory/_next/static/css/app.css" rel="stylesheet" />
+      </head>
+      <body className="bg-gray-900 text-white">
         {children}
       </body>
     </html>
