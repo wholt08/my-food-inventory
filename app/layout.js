@@ -18,10 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <head>
-        <link href="/my-food-inventory/_next/static/css/app.css" rel="stylesheet" />
-      </head>
+    <html lang="en" className="bg-gray-900">
       <body className="bg-gray-900 text-white">
         {children}
       </body>
